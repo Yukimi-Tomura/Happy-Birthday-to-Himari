@@ -29,24 +29,24 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- クイズデータ ---
     const quizQuestions = [
         {
-            question: "12月12日は何の日？",
-            options: { A: "ダースの日", B: "ルックの日", C: "ポッキーの日" },
+            question: "2月23日は何の日？",
+            options: { A: "天皇誕生日", B: "建国記念の日", C: "こどもの日" },
             correct: "A"
         },
         {
-            question: "漢字の日は何月何日？",
-            options: { A: "12月2日", B: "12月12日", C: "12月22日" },
-            correct: "B"
+            question: "富士山の日は何月何日？",
+            options: { A: "2月3日", B: "2月13日", C: "2月23日" },
+            correct: "C"
         },
         {
             question: "ハナキリンやデンファレが誕生花なのは何月何日？",
-            options: { A: "12月12日", B: "12月13日", C: "12月14日" },
+            options: { A: "2月23日", B: "2月24日", C: "2月25日" },
             correct: "A"
         },
         {
-            question: "5本指ソックスの日は何月何日？",
-            options: { A: "5月5日", B: "10月10日", C: "12月12日" },
-            correct: "C"
+            question: "ふろしきの日は何月何日？",
+            options: { A: "1月23日", B: "2月23日", C: "3月23日" },
+            correct: "B"
         },
         {
             question: "2月23日は何の日？",
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const appMonthDay = userAppDate.substring(5);     // "MM-DD"
 
             if (birthMonthDay === appMonthDay) {
-                birthdayMessageDisplay.textContent = 'ちおちゃん\nお誕生日おめでとう！';
+                birthdayMessageDisplay.textContent = 'ひまりちゃん\nお誕生日おめでとう！';
                 birthdayMessageDisplay.style.color = '#FF4500'; // オレンジレッド
                 birthdayMessageDisplay.style.fontWeight = 'bold';
                 birthdayMessageDisplay.style.fontSize = '1.5em';
